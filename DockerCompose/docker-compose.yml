@@ -1,0 +1,51 @@
+version: '2'
+
+services:
+    db1:
+        image: mariadb:10.1
+        container_name: mariadb
+        ports:
+            - "13306:3306"
+        volumes:
+            - "/opt/mariadb-data:/var/lib/mysql"
+        environment:
+            - "MYSQL_ROOT_PASSWORD=1609traKKX01"
+            - "MYSQL_DATABASE=guidoo"
+            - "MYSQL_USER=guidoo1"
+            - "MYSQL_PASSWORD=1609guidooTrak01"
+    db2:
+        image: mongo:3.0.4
+        container_name: mongodb
+        volumes:
+            - "/opt/mongo-data:/data"
+        environment:
+            - "MONGODB_DATABASE: guidoo"
+        command: --smallfiles --rest
+    app:
+        image: 10.131.3.143:5000/guidoo-default:latest
+        container_name: god-server-compose
+        ports:
+            - "9080:8080"
+        volumes:
+            - "/var/log/guidoo-server-compose:/myvol"
+        depends_on:
+            - db1
+            - db2
+        environment:
+            - "spring.datasource.url=jdbc:mariadb://mariadb:3306/guidoo"
+            - "spring.datasource.username=guidoo1"
+            - "spring.datasource.password=1609guidooTrak01"
+            - "spring.data.mongodb.host=mongodb"
+            - "spring.data.mongodb.port=27017"
+            - "spring.data.mongodb.database=guidoo"
+            - "spring.autoconfigure.exclude=org.springframework.boot.autoconfigure.mongo.embedded.EmbeddedMongoAutoConfiguration"
+    prx:
+        image: nginx
+        container_name: nginx-compose
+        ports:
+            - "9090:9080"
+        volumes:
+            - "/opt/docker-nginx/config/nginx.conf:/etc/nginx/conf.d/nginx.conf"
+            - "/opt/docker-nginx/guidoo-static/:/opt/guidoo-static/"
+        depends_on:
+            - app

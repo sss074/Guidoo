@@ -1,0 +1,29 @@
+//
+//  Guidoo-prefix.pch
+//  Guidoo
+//
+//  Created by Sergiy Bekker on 27.03.17.
+//  Copyright © 2017 SBApps. All rights reserved.
+//
+
+#ifndef Guidoo_prefix_pch
+#define Guidoo_prefix_pch
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import "AppConstants.h"
+    #import "AppDelegate.h"
+    #import "SWBaseController.h"
+    #import "NSObject+NSObject_Custom.h"
+    #import "UIImageView+WebCache.h"
+    #import "UIImageView+WebCache.h"
+    #import "UIImage+ResizeNCrop.h"
+    #import "SWWebManager.h"
+    #import "SWObjectManager.h"
+    #import "SWTabbarController.h"
+    #import <SDVersion/SDVersion.h>
+    #import "SWDataManager.h"
+#endif
+
+#endif /* Guidoo_prefix_pch */

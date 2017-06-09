@@ -1,0 +1,1651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB8E7EDBDD1A684A84D894CB /* libPods-Guidoo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67DBFF60F78A289C572518B8 /* libPods-Guidoo.a */; };
+		EF0A27E21ED94C9500E4369F /* Chat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF0A27E01ED94C9500E4369F /* Chat.xcdatamodeld */; };
+		EF0A27E81ED9AF1500E4369F /* SWChatController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0A27E71ED9AF1500E4369F /* SWChatController.m */; };
+		EF0A27EB1ED9B33500E4369F /* SWChatView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0A27EA1ED9B33500E4369F /* SWChatView.m */; };
+		EF25CA3B1E8A6C1B00417459 /* SWPhoneController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF25CA3A1E8A6C1B00417459 /* SWPhoneController.m */; };
+		EF25CA3F1E8A6C6100417459 /* SWPhoneView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF25CA3E1E8A6C6100417459 /* SWPhoneView.m */; };
+		EF25CA421E8A79B100417459 /* SWRegisterPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = EF25CA411E8A79B100417459 /* SWRegisterPhone.m */; };
+		EF25CA451E8A7B7E00417459 /* SWRegisterPhoneService.m in Sources */ = {isa = PBXBuildFile; fileRef = EF25CA441E8A7B7E00417459 /* SWRegisterPhoneService.m */; };
+		EF25CA4B1E8A7E1900417459 /* SWConfirmPhoneService.m in Sources */ = {isa = PBXBuildFile; fileRef = EF25CA4A1E8A7E1900417459 /* SWConfirmPhoneService.m */; };
+		EF25CA4E1E8A7E3D00417459 /* SWConfirmPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = EF25CA4D1E8A7E3D00417459 /* SWConfirmPhone.m */; };
+		EF25CA521E8A81CC00417459 /* SWTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF25CA511E8A81CC00417459 /* SWTabbarController.m */; };
+		EF2B1EFE1E92C095008DE868 /* SWFTSView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2B1EFD1E92C095008DE868 /* SWFTSView.m */; };
+		EF2B1F011E92C0D5008DE868 /* SWFTSController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2B1F001E92C0D5008DE868 /* SWFTSController.m */; };
+		EF2B1F061E92CBAE008DE868 /* SWFTSLanguageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2B1F051E92CBAE008DE868 /* SWFTSLanguageCell.m */; };
+		EF2B1F091E92D31B008DE868 /* SWLanguageService.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2B1F081E92D31B008DE868 /* SWLanguageService.m */; };
+		EF2B1F0C1E92DAE9008DE868 /* SWLanguage.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2B1F0B1E92DAE9008DE868 /* SWLanguage.m */; };
+		EF2B1F0F1E938A5A008DE868 /* SWPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2B1F0E1E938A5A008DE868 /* SWPreferences.m */; };
+		EF2B1F121E938B7B008DE868 /* SWPreferencesService.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2B1F111E938B7B008DE868 /* SWPreferencesService.m */; };
+		EF2B1F161E93F949008DE868 /* SWStartLoaderController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2B1F151E93F949008DE868 /* SWStartLoaderController.m */; };
+		EF2B1F1A1E94DA84008DE868 /* SWGuideService.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2B1F191E94DA84008DE868 /* SWGuideService.m */; };
+		EF2B1F1E1E94DAA3008DE868 /* SWGuide.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2B1F1D1E94DAA3008DE868 /* SWGuide.m */; };
+		EF2B1F221E94DC09008DE868 /* SWNearMeView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2B1F211E94DC09008DE868 /* SWNearMeView.m */; };
+		EF2B1F261E950745008DE868 /* SWTourCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2B1F251E950745008DE868 /* SWTourCell.m */; };
+		EF2B1F2B1E951F8D008DE868 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = EF2B1F281E951F8D008DE868 /* LICENSE */; };
+		EF2B1F2C1E951F8D008DE868 /* UIRefreshControl+UITableView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2B1F2A1E951F8D008DE868 /* UIRefreshControl+UITableView.m */; };
+		EF2D5E2A1E955D8300005149 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF2D5E281E955D8300005149 /* Fabric.framework */; };
+		EF2D5E2B1E955D8300005149 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF2D5E291E955D8300005149 /* Crashlytics.framework */; };
+		EF2D5E2E1E96275A00005149 /* SWProfileController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2D5E2D1E96275A00005149 /* SWProfileController.m */; };
+		EF365CA31ECEF6EC00944AEB /* SWActiveTourView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF365CA21ECEF6EC00944AEB /* SWActiveTourView.xib */; };
+		EF365CA61ECEFFFF00944AEB /* SWActiveTourView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF365CA51ECEFFFF00944AEB /* SWActiveTourView.m */; };
+		EF3E7BCB1EA66E66002FFE87 /* SWConfirmController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3E7BCA1EA66E66002FFE87 /* SWConfirmController.m */; };
+		EF3E7BCE1EA66FC2002FFE87 /* SWConfirmView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3E7BCD1EA66FC2002FFE87 /* SWConfirmView.m */; };
+		EF45ED871EB65F1E008F5D75 /* SWNeaMeMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF45ED861EB65F1E008F5D75 /* SWNeaMeMapView.m */; };
+		EF45ED8C1EB7F445008F5D75 /* SWMapInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF45ED8A1EB7F445008F5D75 /* SWMapInfoView.m */; };
+		EF45ED8D1EB7F445008F5D75 /* SWMapInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF45ED8B1EB7F445008F5D75 /* SWMapInfoView.xib */; };
+		EF47F1E41ED5D2CB003E4CE8 /* SWRatePopup.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF47F1E31ED5D2CB003E4CE8 /* SWRatePopup.xib */; };
+		EF47F1E71ED5D94F003E4CE8 /* SWRatePopup.m in Sources */ = {isa = PBXBuildFile; fileRef = EF47F1E61ED5D94F003E4CE8 /* SWRatePopup.m */; };
+		EF4AC5E71EA8684600AAE579 /* CountryCode.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF4AC5E61EA8684600AAE579 /* CountryCode.plist */; };
+		EF52C4351EBB4FD800B1052D /* SWTourPopup.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF52C4341EBB4FD800B1052D /* SWTourPopup.xib */; };
+		EF52C4391EBB50D600B1052D /* SWTourPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = EF52C4381EBB50D600B1052D /* SWTourPopup.m */; };
+		EF52C43D1EBB624200B1052D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF52C43F1EBB624200B1052D /* Localizable.strings */; };
+		EF52C4441EBBB18800B1052D /* SWPaymentView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF52C4431EBBB18800B1052D /* SWPaymentView.m */; };
+		EF52C4471EBCB57700B1052D /* SWBookInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF52C4461EBCB57700B1052D /* SWBookInfoView.m */; };
+		EF52C44A1EBCB5AD00B1052D /* SWBookInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF52C4491EBCB5AD00B1052D /* SWBookInfoController.m */; };
+		EF52C4531EBF3D9600B1052D /* SWHistoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF52C4521EBF3D9600B1052D /* SWHistoryController.m */; };
+		EF52C4571EBF3DF000B1052D /* SWHistoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF52C4561EBF3DF000B1052D /* SWHistoryView.m */; };
+		EF58BDFE1ECC74B000EF22F8 /* SWHistoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF58BDFD1ECC74B000EF22F8 /* SWHistoryCell.m */; };
+		EF5939F61EA7946100E9AE2E /* SWCompleteView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5939F51EA7946100E9AE2E /* SWCompleteView.m */; };
+		EF5939F91EA7947400E9AE2E /* SWCompleteController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5939F81EA7947400E9AE2E /* SWCompleteController.m */; };
+		EF6920251EA1D5A600147B94 /* SWBookInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6920241EA1D5A600147B94 /* SWBookInfo.m */; };
+		EF6920281EA1D5C200147B94 /* SWBookInfoService.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6920271EA1D5C200147B94 /* SWBookInfoService.m */; };
+		EF69202C1EA2037000147B94 /* SWPaymentController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF69202B1EA2037000147B94 /* SWPaymentController.m */; };
+		EF69B69B1ECC835E00B53126 /* SWHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = EF69B69A1ECC835E00B53126 /* SWHistory.m */; };
+		EF70F42A1E923BC90041FDA8 /* SWMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF70F4291E923BC90041FDA8 /* SWMapView.m */; };
+		EF70F42E1E925B470041FDA8 /* SWNearMeController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF70F42D1E925B470041FDA8 /* SWNearMeController.m */; };
+		EF70F4311E925C060041FDA8 /* SWMapController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF70F4301E925C060041FDA8 /* SWMapController.m */; };
+		EF70F4331E925F930041FDA8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF70F4321E925F930041FDA8 /* MapKit.framework */; };
+		EF70F4371E9261B50041FDA8 /* DLLocationTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = EF70F4361E9261B50041FDA8 /* DLLocationTracker.m */; };
+		EF70F43A1E926FF10041FDA8 /* SWLoginService.m in Sources */ = {isa = PBXBuildFile; fileRef = EF70F4391E926FF10041FDA8 /* SWLoginService.m */; };
+		EF70F43D1E9270540041FDA8 /* SWLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = EF70F43C1E9270540041FDA8 /* SWLogin.m */; };
+		EF70F4421E92A7440041FDA8 /* SWLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = EF70F4411E92A7440041FDA8 /* SWLocation.m */; };
+		EF70F4451E92A7650041FDA8 /* SWLocationService.m in Sources */ = {isa = PBXBuildFile; fileRef = EF70F4441E92A7650041FDA8 /* SWLocationService.m */; };
+		EF75D25E1E9E0F5800AE4DB7 /* SWPhoneProfileController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF75D25D1E9E0F5800AE4DB7 /* SWPhoneProfileController.m */; };
+		EF75D2611E9E0F7E00AE4DB7 /* SWPhoneProfileView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF75D2601E9E0F7E00AE4DB7 /* SWPhoneProfileView.m */; };
+		EF75D2681E9E41F600AE4DB7 /* TRCustomDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = EF75D2641E9E41F600AE4DB7 /* TRCustomDatePicker.m */; };
+		EF75D2691E9E41F600AE4DB7 /* TRCustomPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF75D2671E9E41F600AE4DB7 /* TRCustomPickerView.m */; };
+		EF8226D61ED93356007A098F /* SWChatService.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8226D51ED93356007A098F /* SWChatService.m */; };
+		EF8226DA1ED9395C007A098F /* SWInboxController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8226D91ED9395C007A098F /* SWInboxController.m */; };
+		EF8226DE1ED939D0007A098F /* SWInboxView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8226DD1ED939D0007A098F /* SWInboxView.m */; };
+		EF8226E21ED9400F007A098F /* SWListChatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8226E11ED9400F007A098F /* SWListChatCell.m */; };
+		EF84225B1EC5F6D5002E207C /* Terms.txt in Resources */ = {isa = PBXBuildFile; fileRef = EF84225A1EC5F6D5002E207C /* Terms.txt */; };
+		EF84225F1EC5F77E002E207C /* SWAgreementController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF84225E1EC5F77E002E207C /* SWAgreementController.m */; };
+		EF8422611EC5FD11002E207C /* terms.html in Resources */ = {isa = PBXBuildFile; fileRef = EF8422601EC5FD11002E207C /* terms.html */; };
+		EF8422641EC6110F002E207C /* SWChoseController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8422631EC6110F002E207C /* SWChoseController.m */; };
+		EF8422671EC61136002E207C /* SWChoseView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8422661EC61136002E207C /* SWChoseView.m */; };
+		EF84226A1EC76692002E207C /* SWInvitePopup.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8422691EC76692002E207C /* SWInvitePopup.m */; };
+		EF84226C1EC76769002E207C /* SWInvitePopup.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF84226B1EC76769002E207C /* SWInvitePopup.xib */; };
+		EF85AF561E9CF0D500B72017 /* SWProfileView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF85AF551E9CF0D500B72017 /* SWProfileView.m */; };
+		EF85AF591E9CFD7300B72017 /* SWInfoProfileController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF85AF581E9CFD7300B72017 /* SWInfoProfileController.m */; };
+		EF85AF5C1E9CFDBC00B72017 /* SWEditProfileController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF85AF5B1E9CFDBC00B72017 /* SWEditProfileController.m */; };
+		EF85AF5F1E9CFE0A00B72017 /* SWInfoProfileView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF85AF5E1E9CFE0A00B72017 /* SWInfoProfileView.m */; };
+		EF85AF621E9CFE1A00B72017 /* SWEditProfileView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF85AF611E9CFE1A00B72017 /* SWEditProfileView.m */; };
+		EF85AF661E9D012C00B72017 /* SWInfoProfileCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF85AF651E9D012C00B72017 /* SWInfoProfileCell.m */; };
+		EF85AF6A1E9D2C6100B72017 /* SWProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = EF85AF691E9D2C6100B72017 /* SWProfile.m */; };
+		EF85AF6E1E9D2DB500B72017 /* SWProfileService.m in Sources */ = {isa = PBXBuildFile; fileRef = EF85AF6D1E9D2DB500B72017 /* SWProfileService.m */; };
+		EF873C001ED3074700396579 /* SWBookmarksController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF873BFF1ED3074700396579 /* SWBookmarksController.m */; };
+		EF873C031ED30BFE00396579 /* SWBookmarksView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF873C021ED30BFE00396579 /* SWBookmarksView.m */; };
+		EF8842B71E9A0ABB002885B1 /* SWBookTour.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8842B61E9A0ABB002885B1 /* SWBookTour.m */; };
+		EF8842BA1E9A0B14002885B1 /* SWBookTourService.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8842B91E9A0B14002885B1 /* SWBookTourService.m */; };
+		EF89C1DD1E9BA50F0081AB54 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF89C1DC1E9BA50F0081AB54 /* GoogleService-Info.plist */; };
+		EF89C1E11E9BBE9D0081AB54 /* SWPushService.m in Sources */ = {isa = PBXBuildFile; fileRef = EF89C1E01E9BBE9D0081AB54 /* SWPushService.m */; };
+		EF89C1E51E9BBED40081AB54 /* SWPush.m in Sources */ = {isa = PBXBuildFile; fileRef = EF89C1E41E9BBED40081AB54 /* SWPush.m */; };
+		EF9543121EDC03EB008A9E4C /* SWChatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9543111EDC03EA008A9E4C /* SWChatCell.m */; };
+		EF9885B71E89837A0089A0EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9885B61E89837A0089A0EC /* main.m */; };
+		EF9885BA1E89837A0089A0EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9885B91E89837A0089A0EC /* AppDelegate.m */; };
+		EF9885BD1E89837A0089A0EC /* SWMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9885BC1E89837A0089A0EC /* SWMainController.m */; };
+		EF9885C01E89837A0089A0EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF9885BE1E89837A0089A0EC /* Main.storyboard */; };
+		EF9885C21E89837A0089A0EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF9885C11E89837A0089A0EC /* Assets.xcassets */; };
+		EF9885C51E89837A0089A0EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF9885C31E89837A0089A0EC /* LaunchScreen.storyboard */; };
+		EF9885D71E8A19A20089A0EC /* SWBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9885D61E8A19A20089A0EC /* SWBaseController.m */; };
+		EF9885F51E8A1AC50089A0EC /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9885DC1E8A1AC50089A0EC /* NSData+Base64.m */; };
+		EF9885F61E8A1AC50089A0EC /* NSObject+NSObject_Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9885DE1E8A1AC50089A0EC /* NSObject+NSObject_Custom.m */; };
+		EF9885F71E8A1AC50089A0EC /* SWObjectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9885E21E8A1AC50089A0EC /* SWObjectManager.m */; };
+		EF9885F81E8A1AC50089A0EC /* SWRegisterService.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9885E41E8A1AC50089A0EC /* SWRegisterService.m */; };
+		EF9885FB1E8A1AC50089A0EC /* SWWebManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9885EA1E8A1AC50089A0EC /* SWWebManager.m */; };
+		EF9885FC1E8A1AC50089A0EC /* SWBaseDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9885ED1E8A1AC50089A0EC /* SWBaseDataModel.m */; };
+		EF9885FD1E8A1AC50089A0EC /* SWRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9885EF1E8A1AC50089A0EC /* SWRegister.m */; };
+		EF9886091E8A3F3C0089A0EC /* SWMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9886081E8A3F3C0089A0EC /* SWMainView.m */; };
+		EF98860E1E8A51900089A0EC /* SWCreateProfileController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF98860D1E8A51900089A0EC /* SWCreateProfileController.m */; };
+		EF9886121E8A51B20089A0EC /* SWCreateProfileView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9886111E8A51B20089A0EC /* SWCreateProfileView.m */; };
+		EFA2FBA01E965B3D00C10EDD /* SWGuideCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA2FB9F1E965B3D00C10EDD /* SWGuideCell.m */; };
+		EFA2FBA31E9668A600C10EDD /* SWGuidDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA2FBA21E9668A600C10EDD /* SWGuidDetailController.m */; };
+		EFA2FBA61E9668BE00C10EDD /* SWTourController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA2FBA51E9668BE00C10EDD /* SWTourController.m */; };
+		EFA2FBA91E96695200C10EDD /* SWGuidDateilView.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA2FBA81E96695200C10EDD /* SWGuidDateilView.m */; };
+		EFA2FBAC1E96696800C10EDD /* SWTourView.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA2FBAB1E96696800C10EDD /* SWTourView.m */; };
+		EFA41CFE1ED8288D008E0CA8 /* SWDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA41CFD1ED8288D008E0CA8 /* SWDataManager.m */; };
+		EFA41D001ED829F1008E0CA8 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFA41CFF1ED829F1008E0CA8 /* CoreData.framework */; };
+		EFA41D1F1ED87031008E0CA8 /* SWChatMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA41D1E1ED87031008E0CA8 /* SWChatMessage.m */; };
+		EFEB92441EC4860100557E5C /* SWEditProfileCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EFEB92431EC4860100557E5C /* SWEditProfileCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		46294B99623A689B01A9D105 /* Pods-Guidoo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Guidoo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Guidoo/Pods-Guidoo.release.xcconfig"; sourceTree = "<group>"; };
+		67DBFF60F78A289C572518B8 /* libPods-Guidoo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Guidoo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1351FCD735406207E235278 /* Pods-Guidoo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Guidoo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Guidoo/Pods-Guidoo.debug.xcconfig"; sourceTree = "<group>"; };
+		EF0A27E11ED94C9500E4369F /* Chat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Chat.xcdatamodel; sourceTree = "<group>"; };
+		EF0A27E61ED9AF1500E4369F /* SWChatController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWChatController.h; sourceTree = "<group>"; };
+		EF0A27E71ED9AF1500E4369F /* SWChatController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWChatController.m; sourceTree = "<group>"; };
+		EF0A27E91ED9B33500E4369F /* SWChatView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWChatView.h; sourceTree = "<group>"; };
+		EF0A27EA1ED9B33500E4369F /* SWChatView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWChatView.m; sourceTree = "<group>"; };
+		EF25CA391E8A6C1B00417459 /* SWPhoneController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWPhoneController.h; sourceTree = "<group>"; };
+		EF25CA3A1E8A6C1B00417459 /* SWPhoneController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWPhoneController.m; sourceTree = "<group>"; };
+		EF25CA3D1E8A6C6100417459 /* SWPhoneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWPhoneView.h; sourceTree = "<group>"; };
+		EF25CA3E1E8A6C6100417459 /* SWPhoneView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWPhoneView.m; sourceTree = "<group>"; };
+		EF25CA401E8A79B100417459 /* SWRegisterPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRegisterPhone.h; sourceTree = "<group>"; };
+		EF25CA411E8A79B100417459 /* SWRegisterPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRegisterPhone.m; sourceTree = "<group>"; };
+		EF25CA431E8A7B7E00417459 /* SWRegisterPhoneService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRegisterPhoneService.h; sourceTree = "<group>"; };
+		EF25CA441E8A7B7E00417459 /* SWRegisterPhoneService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRegisterPhoneService.m; sourceTree = "<group>"; };
+		EF25CA491E8A7E1900417459 /* SWConfirmPhoneService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWConfirmPhoneService.h; sourceTree = "<group>"; };
+		EF25CA4A1E8A7E1900417459 /* SWConfirmPhoneService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWConfirmPhoneService.m; sourceTree = "<group>"; };
+		EF25CA4C1E8A7E3D00417459 /* SWConfirmPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWConfirmPhone.h; sourceTree = "<group>"; };
+		EF25CA4D1E8A7E3D00417459 /* SWConfirmPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWConfirmPhone.m; sourceTree = "<group>"; };
+		EF25CA501E8A81CC00417459 /* SWTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWTabbarController.h; sourceTree = "<group>"; };
+		EF25CA511E8A81CC00417459 /* SWTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWTabbarController.m; sourceTree = "<group>"; };
+		EF2B1EFC1E92C095008DE868 /* SWFTSView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWFTSView.h; sourceTree = "<group>"; };
+		EF2B1EFD1E92C095008DE868 /* SWFTSView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWFTSView.m; sourceTree = "<group>"; };
+		EF2B1EFF1E92C0D5008DE868 /* SWFTSController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWFTSController.h; sourceTree = "<group>"; };
+		EF2B1F001E92C0D5008DE868 /* SWFTSController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWFTSController.m; sourceTree = "<group>"; };
+		EF2B1F041E92CBAE008DE868 /* SWFTSLanguageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWFTSLanguageCell.h; sourceTree = "<group>"; };
+		EF2B1F051E92CBAE008DE868 /* SWFTSLanguageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWFTSLanguageCell.m; sourceTree = "<group>"; };
+		EF2B1F071E92D31B008DE868 /* SWLanguageService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWLanguageService.h; path = Managers/SWLanguageService.h; sourceTree = "<group>"; };
+		EF2B1F081E92D31B008DE868 /* SWLanguageService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWLanguageService.m; path = Managers/SWLanguageService.m; sourceTree = "<group>"; };
+		EF2B1F0A1E92DAE9008DE868 /* SWLanguage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWLanguage.h; path = RestAPI/Models/SWLanguage.h; sourceTree = "<group>"; };
+		EF2B1F0B1E92DAE9008DE868 /* SWLanguage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWLanguage.m; path = RestAPI/Models/SWLanguage.m; sourceTree = "<group>"; };
+		EF2B1F0D1E938A5A008DE868 /* SWPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWPreferences.h; sourceTree = "<group>"; };
+		EF2B1F0E1E938A5A008DE868 /* SWPreferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWPreferences.m; sourceTree = "<group>"; };
+		EF2B1F101E938B7B008DE868 /* SWPreferencesService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWPreferencesService.h; sourceTree = "<group>"; };
+		EF2B1F111E938B7B008DE868 /* SWPreferencesService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWPreferencesService.m; sourceTree = "<group>"; };
+		EF2B1F141E93F949008DE868 /* SWStartLoaderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWStartLoaderController.h; sourceTree = "<group>"; };
+		EF2B1F151E93F949008DE868 /* SWStartLoaderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWStartLoaderController.m; sourceTree = "<group>"; };
+		EF2B1F181E94DA84008DE868 /* SWGuideService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWGuideService.h; sourceTree = "<group>"; };
+		EF2B1F191E94DA84008DE868 /* SWGuideService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWGuideService.m; sourceTree = "<group>"; };
+		EF2B1F1C1E94DAA3008DE868 /* SWGuide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWGuide.h; sourceTree = "<group>"; };
+		EF2B1F1D1E94DAA3008DE868 /* SWGuide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWGuide.m; sourceTree = "<group>"; };
+		EF2B1F201E94DC09008DE868 /* SWNearMeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWNearMeView.h; sourceTree = "<group>"; };
+		EF2B1F211E94DC09008DE868 /* SWNearMeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWNearMeView.m; sourceTree = "<group>"; };
+		EF2B1F241E950745008DE868 /* SWTourCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWTourCell.h; sourceTree = "<group>"; };
+		EF2B1F251E950745008DE868 /* SWTourCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWTourCell.m; sourceTree = "<group>"; };
+		EF2B1F281E951F8D008DE868 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		EF2B1F291E951F8D008DE868 /* UIRefreshControl+UITableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIRefreshControl+UITableView.h"; sourceTree = "<group>"; };
+		EF2B1F2A1E951F8D008DE868 /* UIRefreshControl+UITableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIRefreshControl+UITableView.m"; sourceTree = "<group>"; };
+		EF2D5E281E955D8300005149 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fabric.framework; path = Guidoo/Fabric.framework; sourceTree = "<group>"; };
+		EF2D5E291E955D8300005149 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Crashlytics.framework; path = Guidoo/Crashlytics.framework; sourceTree = "<group>"; };
+		EF2D5E2C1E96275A00005149 /* SWProfileController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWProfileController.h; sourceTree = "<group>"; };
+		EF2D5E2D1E96275A00005149 /* SWProfileController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWProfileController.m; sourceTree = "<group>"; };
+		EF365CA21ECEF6EC00944AEB /* SWActiveTourView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SWActiveTourView.xib; sourceTree = "<group>"; };
+		EF365CA41ECEFFFF00944AEB /* SWActiveTourView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWActiveTourView.h; sourceTree = "<group>"; };
+		EF365CA51ECEFFFF00944AEB /* SWActiveTourView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWActiveTourView.m; sourceTree = "<group>"; };
+		EF3E7BC91EA66E66002FFE87 /* SWConfirmController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWConfirmController.h; sourceTree = "<group>"; };
+		EF3E7BCA1EA66E66002FFE87 /* SWConfirmController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWConfirmController.m; sourceTree = "<group>"; };
+		EF3E7BCC1EA66FC2002FFE87 /* SWConfirmView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWConfirmView.h; sourceTree = "<group>"; };
+		EF3E7BCD1EA66FC2002FFE87 /* SWConfirmView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWConfirmView.m; sourceTree = "<group>"; };
+		EF45ED851EB65F1E008F5D75 /* SWNeaMeMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWNeaMeMapView.h; sourceTree = "<group>"; };
+		EF45ED861EB65F1E008F5D75 /* SWNeaMeMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWNeaMeMapView.m; sourceTree = "<group>"; };
+		EF45ED891EB7F445008F5D75 /* SWMapInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWMapInfoView.h; path = Service/MapView/SWMapInfoView.h; sourceTree = "<group>"; };
+		EF45ED8A1EB7F445008F5D75 /* SWMapInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWMapInfoView.m; path = Service/MapView/SWMapInfoView.m; sourceTree = "<group>"; };
+		EF45ED8B1EB7F445008F5D75 /* SWMapInfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SWMapInfoView.xib; path = Service/MapView/SWMapInfoView.xib; sourceTree = "<group>"; };
+		EF47F1E31ED5D2CB003E4CE8 /* SWRatePopup.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SWRatePopup.xib; sourceTree = "<group>"; };
+		EF47F1E51ED5D94F003E4CE8 /* SWRatePopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRatePopup.h; sourceTree = "<group>"; };
+		EF47F1E61ED5D94F003E4CE8 /* SWRatePopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRatePopup.m; sourceTree = "<group>"; };
+		EF4AC5E61EA8684600AAE579 /* CountryCode.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CountryCode.plist; sourceTree = "<group>"; };
+		EF52C4341EBB4FD800B1052D /* SWTourPopup.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SWTourPopup.xib; sourceTree = "<group>"; };
+		EF52C4371EBB50D600B1052D /* SWTourPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWTourPopup.h; sourceTree = "<group>"; };
+		EF52C4381EBB50D600B1052D /* SWTourPopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWTourPopup.m; sourceTree = "<group>"; };
+		EF52C43E1EBB624200B1052D /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EF52C4401EBB624600B1052D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EF52C4421EBBB18800B1052D /* SWPaymentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWPaymentView.h; sourceTree = "<group>"; };
+		EF52C4431EBBB18800B1052D /* SWPaymentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWPaymentView.m; sourceTree = "<group>"; };
+		EF52C4451EBCB57700B1052D /* SWBookInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWBookInfoView.h; sourceTree = "<group>"; };
+		EF52C4461EBCB57700B1052D /* SWBookInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWBookInfoView.m; sourceTree = "<group>"; };
+		EF52C4481EBCB5AD00B1052D /* SWBookInfoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWBookInfoController.h; sourceTree = "<group>"; };
+		EF52C4491EBCB5AD00B1052D /* SWBookInfoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWBookInfoController.m; sourceTree = "<group>"; };
+		EF52C4511EBF3D9600B1052D /* SWHistoryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWHistoryController.h; sourceTree = "<group>"; };
+		EF52C4521EBF3D9600B1052D /* SWHistoryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWHistoryController.m; sourceTree = "<group>"; };
+		EF52C4551EBF3DF000B1052D /* SWHistoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWHistoryView.h; sourceTree = "<group>"; };
+		EF52C4561EBF3DF000B1052D /* SWHistoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWHistoryView.m; sourceTree = "<group>"; };
+		EF58BDFC1ECC74B000EF22F8 /* SWHistoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWHistoryCell.h; sourceTree = "<group>"; };
+		EF58BDFD1ECC74B000EF22F8 /* SWHistoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWHistoryCell.m; sourceTree = "<group>"; };
+		EF5939F41EA7946100E9AE2E /* SWCompleteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWCompleteView.h; sourceTree = "<group>"; };
+		EF5939F51EA7946100E9AE2E /* SWCompleteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWCompleteView.m; sourceTree = "<group>"; };
+		EF5939F71EA7947400E9AE2E /* SWCompleteController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWCompleteController.h; sourceTree = "<group>"; };
+		EF5939F81EA7947400E9AE2E /* SWCompleteController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWCompleteController.m; sourceTree = "<group>"; };
+		EF6920231EA1D5A600147B94 /* SWBookInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWBookInfo.h; sourceTree = "<group>"; };
+		EF6920241EA1D5A600147B94 /* SWBookInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWBookInfo.m; sourceTree = "<group>"; };
+		EF6920261EA1D5C200147B94 /* SWBookInfoService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWBookInfoService.h; sourceTree = "<group>"; };
+		EF6920271EA1D5C200147B94 /* SWBookInfoService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWBookInfoService.m; sourceTree = "<group>"; };
+		EF69202A1EA2037000147B94 /* SWPaymentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWPaymentController.h; sourceTree = "<group>"; };
+		EF69202B1EA2037000147B94 /* SWPaymentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWPaymentController.m; sourceTree = "<group>"; };
+		EF69B6991ECC835E00B53126 /* SWHistory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWHistory.h; sourceTree = "<group>"; };
+		EF69B69A1ECC835E00B53126 /* SWHistory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWHistory.m; sourceTree = "<group>"; };
+		EF70F4281E923BC90041FDA8 /* SWMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWMapView.h; sourceTree = "<group>"; };
+		EF70F4291E923BC90041FDA8 /* SWMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWMapView.m; sourceTree = "<group>"; };
+		EF70F42C1E925B470041FDA8 /* SWNearMeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWNearMeController.h; sourceTree = "<group>"; };
+		EF70F42D1E925B470041FDA8 /* SWNearMeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWNearMeController.m; sourceTree = "<group>"; };
+		EF70F42F1E925C060041FDA8 /* SWMapController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWMapController.h; sourceTree = "<group>"; };
+		EF70F4301E925C060041FDA8 /* SWMapController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWMapController.m; sourceTree = "<group>"; };
+		EF70F4321E925F930041FDA8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		EF70F4351E9261B50041FDA8 /* DLLocationTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLLocationTracker.h; sourceTree = "<group>"; };
+		EF70F4361E9261B50041FDA8 /* DLLocationTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLLocationTracker.m; sourceTree = "<group>"; };
+		EF70F4381E926FF10041FDA8 /* SWLoginService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWLoginService.h; sourceTree = "<group>"; };
+		EF70F4391E926FF10041FDA8 /* SWLoginService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWLoginService.m; sourceTree = "<group>"; };
+		EF70F43B1E9270540041FDA8 /* SWLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWLogin.h; sourceTree = "<group>"; };
+		EF70F43C1E9270540041FDA8 /* SWLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWLogin.m; sourceTree = "<group>"; };
+		EF70F4401E92A7440041FDA8 /* SWLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWLocation.h; sourceTree = "<group>"; };
+		EF70F4411E92A7440041FDA8 /* SWLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWLocation.m; sourceTree = "<group>"; };
+		EF70F4431E92A7650041FDA8 /* SWLocationService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWLocationService.h; sourceTree = "<group>"; };
+		EF70F4441E92A7650041FDA8 /* SWLocationService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWLocationService.m; sourceTree = "<group>"; };
+		EF75D25C1E9E0F5800AE4DB7 /* SWPhoneProfileController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWPhoneProfileController.h; sourceTree = "<group>"; };
+		EF75D25D1E9E0F5800AE4DB7 /* SWPhoneProfileController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWPhoneProfileController.m; sourceTree = "<group>"; };
+		EF75D25F1E9E0F7E00AE4DB7 /* SWPhoneProfileView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWPhoneProfileView.h; sourceTree = "<group>"; };
+		EF75D2601E9E0F7E00AE4DB7 /* SWPhoneProfileView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWPhoneProfileView.m; sourceTree = "<group>"; };
+		EF75D2631E9E41F600AE4DB7 /* TRCustomDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRCustomDatePicker.h; sourceTree = "<group>"; };
+		EF75D2641E9E41F600AE4DB7 /* TRCustomDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRCustomDatePicker.m; sourceTree = "<group>"; };
+		EF75D2661E9E41F600AE4DB7 /* TRCustomPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRCustomPickerView.h; sourceTree = "<group>"; };
+		EF75D2671E9E41F600AE4DB7 /* TRCustomPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRCustomPickerView.m; sourceTree = "<group>"; };
+		EF8226D41ED93356007A098F /* SWChatService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWChatService.h; sourceTree = "<group>"; };
+		EF8226D51ED93356007A098F /* SWChatService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWChatService.m; sourceTree = "<group>"; };
+		EF8226D81ED9395C007A098F /* SWInboxController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWInboxController.h; sourceTree = "<group>"; };
+		EF8226D91ED9395C007A098F /* SWInboxController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWInboxController.m; sourceTree = "<group>"; };
+		EF8226DC1ED939D0007A098F /* SWInboxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWInboxView.h; sourceTree = "<group>"; };
+		EF8226DD1ED939D0007A098F /* SWInboxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWInboxView.m; sourceTree = "<group>"; };
+		EF8226E01ED9400F007A098F /* SWListChatCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWListChatCell.h; sourceTree = "<group>"; };
+		EF8226E11ED9400F007A098F /* SWListChatCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWListChatCell.m; sourceTree = "<group>"; };
+		EF84225A1EC5F6D5002E207C /* Terms.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Terms.txt; sourceTree = "<group>"; };
+		EF84225D1EC5F77E002E207C /* SWAgreementController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWAgreementController.h; sourceTree = "<group>"; };
+		EF84225E1EC5F77E002E207C /* SWAgreementController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWAgreementController.m; sourceTree = "<group>"; };
+		EF8422601EC5FD11002E207C /* terms.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = terms.html; sourceTree = "<group>"; };
+		EF8422621EC6110F002E207C /* SWChoseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWChoseController.h; sourceTree = "<group>"; };
+		EF8422631EC6110F002E207C /* SWChoseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWChoseController.m; sourceTree = "<group>"; };
+		EF8422651EC61136002E207C /* SWChoseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWChoseView.h; sourceTree = "<group>"; };
+		EF8422661EC61136002E207C /* SWChoseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWChoseView.m; sourceTree = "<group>"; };
+		EF8422681EC76692002E207C /* SWInvitePopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWInvitePopup.h; sourceTree = "<group>"; };
+		EF8422691EC76692002E207C /* SWInvitePopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWInvitePopup.m; sourceTree = "<group>"; };
+		EF84226B1EC76769002E207C /* SWInvitePopup.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SWInvitePopup.xib; sourceTree = "<group>"; };
+		EF85AF541E9CF0D500B72017 /* SWProfileView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWProfileView.h; sourceTree = "<group>"; };
+		EF85AF551E9CF0D500B72017 /* SWProfileView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWProfileView.m; sourceTree = "<group>"; };
+		EF85AF571E9CFD7300B72017 /* SWInfoProfileController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWInfoProfileController.h; sourceTree = "<group>"; };
+		EF85AF581E9CFD7300B72017 /* SWInfoProfileController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWInfoProfileController.m; sourceTree = "<group>"; };
+		EF85AF5A1E9CFDBC00B72017 /* SWEditProfileController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWEditProfileController.h; sourceTree = "<group>"; };
+		EF85AF5B1E9CFDBC00B72017 /* SWEditProfileController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWEditProfileController.m; sourceTree = "<group>"; };
+		EF85AF5D1E9CFE0A00B72017 /* SWInfoProfileView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWInfoProfileView.h; sourceTree = "<group>"; };
+		EF85AF5E1E9CFE0A00B72017 /* SWInfoProfileView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWInfoProfileView.m; sourceTree = "<group>"; };
+		EF85AF601E9CFE1A00B72017 /* SWEditProfileView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWEditProfileView.h; sourceTree = "<group>"; };
+		EF85AF611E9CFE1A00B72017 /* SWEditProfileView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWEditProfileView.m; sourceTree = "<group>"; };
+		EF85AF641E9D012C00B72017 /* SWInfoProfileCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWInfoProfileCell.h; sourceTree = "<group>"; };
+		EF85AF651E9D012C00B72017 /* SWInfoProfileCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWInfoProfileCell.m; sourceTree = "<group>"; };
+		EF85AF681E9D2C6100B72017 /* SWProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWProfile.h; sourceTree = "<group>"; };
+		EF85AF691E9D2C6100B72017 /* SWProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWProfile.m; sourceTree = "<group>"; };
+		EF85AF6C1E9D2DB500B72017 /* SWProfileService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWProfileService.h; sourceTree = "<group>"; };
+		EF85AF6D1E9D2DB500B72017 /* SWProfileService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWProfileService.m; sourceTree = "<group>"; };
+		EF873BFE1ED3074700396579 /* SWBookmarksController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWBookmarksController.h; sourceTree = "<group>"; };
+		EF873BFF1ED3074700396579 /* SWBookmarksController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWBookmarksController.m; sourceTree = "<group>"; };
+		EF873C011ED30BFE00396579 /* SWBookmarksView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWBookmarksView.h; sourceTree = "<group>"; };
+		EF873C021ED30BFE00396579 /* SWBookmarksView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWBookmarksView.m; sourceTree = "<group>"; };
+		EF8842B51E9A0ABB002885B1 /* SWBookTour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWBookTour.h; sourceTree = "<group>"; };
+		EF8842B61E9A0ABB002885B1 /* SWBookTour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWBookTour.m; sourceTree = "<group>"; };
+		EF8842B81E9A0B14002885B1 /* SWBookTourService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWBookTourService.h; sourceTree = "<group>"; };
+		EF8842B91E9A0B14002885B1 /* SWBookTourService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWBookTourService.m; sourceTree = "<group>"; };
+		EF8842BB1E9A2925002885B1 /* Guidoo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Guidoo.entitlements; sourceTree = "<group>"; };
+		EF89C1DC1E9BA50F0081AB54 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EF89C1DF1E9BBE9D0081AB54 /* SWPushService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWPushService.h; sourceTree = "<group>"; };
+		EF89C1E01E9BBE9D0081AB54 /* SWPushService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWPushService.m; sourceTree = "<group>"; };
+		EF89C1E31E9BBED40081AB54 /* SWPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWPush.h; sourceTree = "<group>"; };
+		EF89C1E41E9BBED40081AB54 /* SWPush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWPush.m; sourceTree = "<group>"; };
+		EF9543101EDC03EA008A9E4C /* SWChatCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWChatCell.h; sourceTree = "<group>"; };
+		EF9543111EDC03EA008A9E4C /* SWChatCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWChatCell.m; sourceTree = "<group>"; };
+		EF9885B21E89837A0089A0EC /* Guidoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Guidoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF9885B61E89837A0089A0EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF9885B81E89837A0089A0EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF9885B91E89837A0089A0EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF9885BB1E89837A0089A0EC /* SWMainController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWMainController.h; sourceTree = "<group>"; };
+		EF9885BC1E89837A0089A0EC /* SWMainController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWMainController.m; sourceTree = "<group>"; };
+		EF9885BF1E89837A0089A0EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF9885C11E89837A0089A0EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF9885C41E89837A0089A0EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF9885C61E89837A0089A0EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF9885D01E8983E70089A0EC /* Guidoo-prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Guidoo-prefix.pch"; sourceTree = "<group>"; };
+		EF9885D51E8A19A20089A0EC /* SWBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWBaseController.h; sourceTree = "<group>"; };
+		EF9885D61E8A19A20089A0EC /* SWBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWBaseController.m; sourceTree = "<group>"; };
+		EF9885D81E8A19C40089A0EC /* AppConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConstants.h; sourceTree = "<group>"; };
+		EF9885DB1E8A1AC50089A0EC /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		EF9885DC1E8A1AC50089A0EC /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		EF9885DD1E8A1AC50089A0EC /* NSObject+NSObject_Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+NSObject_Custom.h"; sourceTree = "<group>"; };
+		EF9885DE1E8A1AC50089A0EC /* NSObject+NSObject_Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NSObject_Custom.m"; sourceTree = "<group>"; };
+		EF9885E11E8A1AC50089A0EC /* SWObjectManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWObjectManager.h; sourceTree = "<group>"; };
+		EF9885E21E8A1AC50089A0EC /* SWObjectManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWObjectManager.m; sourceTree = "<group>"; };
+		EF9885E31E8A1AC50089A0EC /* SWRegisterService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRegisterService.h; sourceTree = "<group>"; };
+		EF9885E41E8A1AC50089A0EC /* SWRegisterService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRegisterService.m; sourceTree = "<group>"; };
+		EF9885E91E8A1AC50089A0EC /* SWWebManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWWebManager.h; sourceTree = "<group>"; };
+		EF9885EA1E8A1AC50089A0EC /* SWWebManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWWebManager.m; sourceTree = "<group>"; };
+		EF9885EC1E8A1AC50089A0EC /* SWBaseDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWBaseDataModel.h; sourceTree = "<group>"; };
+		EF9885ED1E8A1AC50089A0EC /* SWBaseDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWBaseDataModel.m; sourceTree = "<group>"; };
+		EF9885EE1E8A1AC50089A0EC /* SWRegister.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRegister.h; sourceTree = "<group>"; };
+		EF9885EF1E8A1AC50089A0EC /* SWRegister.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRegister.m; sourceTree = "<group>"; };
+		EF9885F01E8A1AC50089A0EC /* SWRestKitMappableModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRestKitMappableModel.h; sourceTree = "<group>"; };
+		EF9886071E8A3F3C0089A0EC /* SWMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWMainView.h; sourceTree = "<group>"; };
+		EF9886081E8A3F3C0089A0EC /* SWMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWMainView.m; sourceTree = "<group>"; };
+		EF98860C1E8A51900089A0EC /* SWCreateProfileController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWCreateProfileController.h; sourceTree = "<group>"; };
+		EF98860D1E8A51900089A0EC /* SWCreateProfileController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWCreateProfileController.m; sourceTree = "<group>"; };
+		EF9886101E8A51B20089A0EC /* SWCreateProfileView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWCreateProfileView.h; sourceTree = "<group>"; };
+		EF9886111E8A51B20089A0EC /* SWCreateProfileView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWCreateProfileView.m; sourceTree = "<group>"; };
+		EFA2FB9E1E965B3D00C10EDD /* SWGuideCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWGuideCell.h; sourceTree = "<group>"; };
+		EFA2FB9F1E965B3D00C10EDD /* SWGuideCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWGuideCell.m; sourceTree = "<group>"; };
+		EFA2FBA11E9668A600C10EDD /* SWGuidDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWGuidDetailController.h; sourceTree = "<group>"; };
+		EFA2FBA21E9668A600C10EDD /* SWGuidDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWGuidDetailController.m; sourceTree = "<group>"; };
+		EFA2FBA41E9668BE00C10EDD /* SWTourController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWTourController.h; sourceTree = "<group>"; };
+		EFA2FBA51E9668BE00C10EDD /* SWTourController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWTourController.m; sourceTree = "<group>"; };
+		EFA2FBA71E96695200C10EDD /* SWGuidDateilView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWGuidDateilView.h; sourceTree = "<group>"; };
+		EFA2FBA81E96695200C10EDD /* SWGuidDateilView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWGuidDateilView.m; sourceTree = "<group>"; };
+		EFA2FBAA1E96696800C10EDD /* SWTourView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWTourView.h; sourceTree = "<group>"; };
+		EFA2FBAB1E96696800C10EDD /* SWTourView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWTourView.m; sourceTree = "<group>"; };
+		EFA41CFC1ED8288D008E0CA8 /* SWDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWDataManager.h; sourceTree = "<group>"; };
+		EFA41CFD1ED8288D008E0CA8 /* SWDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWDataManager.m; sourceTree = "<group>"; };
+		EFA41CFF1ED829F1008E0CA8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EFA41D1D1ED87031008E0CA8 /* SWChatMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWChatMessage.h; sourceTree = "<group>"; };
+		EFA41D1E1ED87031008E0CA8 /* SWChatMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWChatMessage.m; sourceTree = "<group>"; };
+		EFEB92421EC4860100557E5C /* SWEditProfileCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWEditProfileCell.h; sourceTree = "<group>"; };
+		EFEB92431EC4860100557E5C /* SWEditProfileCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWEditProfileCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF9885AF1E89837A0089A0EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFA41D001ED829F1008E0CA8 /* CoreData.framework in Frameworks */,
+				EF70F4331E925F930041FDA8 /* MapKit.framework in Frameworks */,
+				AB8E7EDBDD1A684A84D894CB /* libPods-Guidoo.a in Frameworks */,
+				EF2D5E2B1E955D8300005149 /* Crashlytics.framework in Frameworks */,
+				EF2D5E2A1E955D8300005149 /* Fabric.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01E15420BA01451AB8AED1BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFA41CFF1ED829F1008E0CA8 /* CoreData.framework */,
+				EF2D5E281E955D8300005149 /* Fabric.framework */,
+				EF2D5E291E955D8300005149 /* Crashlytics.framework */,
+				EF70F4321E925F930041FDA8 /* MapKit.framework */,
+				67DBFF60F78A289C572518B8 /* libPods-Guidoo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F1F26F45C9252CE2541EEAD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1351FCD735406207E235278 /* Pods-Guidoo.debug.xcconfig */,
+				46294B99623A689B01A9D105 /* Pods-Guidoo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EF25CA3C1E8A6C2200417459 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				EF25CA3D1E8A6C6100417459 /* SWPhoneView.h */,
+				EF25CA3E1E8A6C6100417459 /* SWPhoneView.m */,
+				EF3E7BCC1EA66FC2002FFE87 /* SWConfirmView.h */,
+				EF3E7BCD1EA66FC2002FFE87 /* SWConfirmView.m */,
+			);
+			name = Auth;
+			sourceTree = "<group>";
+		};
+		EF25CA4F1E8A819300417459 /* TabbarController */ = {
+			isa = PBXGroup;
+			children = (
+				EF25CA501E8A81CC00417459 /* SWTabbarController.h */,
+				EF25CA511E8A81CC00417459 /* SWTabbarController.m */,
+			);
+			name = TabbarController;
+			sourceTree = "<group>";
+		};
+		EF2B1F021E92C978008DE868 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				EF8226DF1ED93FF0007A098F /* Inbox */,
+				EF58BDFB1ECC749200EF22F8 /* History */,
+				EF85AF631E9D011100B72017 /* Profile */,
+				EF2B1F231E950725008DE868 /* Guide */,
+				EF2B1F031E92CB6C008DE868 /* SWFTSLanguage */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		EF2B1F031E92CB6C008DE868 /* SWFTSLanguage */ = {
+			isa = PBXGroup;
+			children = (
+				EF2B1F041E92CBAE008DE868 /* SWFTSLanguageCell.h */,
+				EF2B1F051E92CBAE008DE868 /* SWFTSLanguageCell.m */,
+			);
+			name = SWFTSLanguage;
+			sourceTree = "<group>";
+		};
+		EF2B1F131E93F925008DE868 /* StartLoader */ = {
+			isa = PBXGroup;
+			children = (
+				EF2B1F141E93F949008DE868 /* SWStartLoaderController.h */,
+				EF2B1F151E93F949008DE868 /* SWStartLoaderController.m */,
+			);
+			name = StartLoader;
+			sourceTree = "<group>";
+		};
+		EF2B1F171E94DA59008DE868 /* Guide */ = {
+			isa = PBXGroup;
+			children = (
+				EF2B1F181E94DA84008DE868 /* SWGuideService.h */,
+				EF2B1F191E94DA84008DE868 /* SWGuideService.m */,
+			);
+			name = Guide;
+			sourceTree = "<group>";
+		};
+		EF2B1F1B1E94DA8E008DE868 /* Guide */ = {
+			isa = PBXGroup;
+			children = (
+				EF2B1F1C1E94DAA3008DE868 /* SWGuide.h */,
+				EF2B1F1D1E94DAA3008DE868 /* SWGuide.m */,
+				EF8842B51E9A0ABB002885B1 /* SWBookTour.h */,
+				EF8842B61E9A0ABB002885B1 /* SWBookTour.m */,
+				EF6920231EA1D5A600147B94 /* SWBookInfo.h */,
+				EF6920241EA1D5A600147B94 /* SWBookInfo.m */,
+			);
+			name = Guide;
+			sourceTree = "<group>";
+		};
+		EF2B1F1F1E94DBF1008DE868 /* NearMe */ = {
+			isa = PBXGroup;
+			children = (
+				EF2B1F201E94DC09008DE868 /* SWNearMeView.h */,
+				EF2B1F211E94DC09008DE868 /* SWNearMeView.m */,
+				EF45ED851EB65F1E008F5D75 /* SWNeaMeMapView.h */,
+				EF45ED861EB65F1E008F5D75 /* SWNeaMeMapView.m */,
+				EF45ED891EB7F445008F5D75 /* SWMapInfoView.h */,
+				EF45ED8A1EB7F445008F5D75 /* SWMapInfoView.m */,
+				EFA2FBA71E96695200C10EDD /* SWGuidDateilView.h */,
+				EFA2FBA81E96695200C10EDD /* SWGuidDateilView.m */,
+				EFA2FBAA1E96696800C10EDD /* SWTourView.h */,
+				EFA2FBAB1E96696800C10EDD /* SWTourView.m */,
+			);
+			name = NearMe;
+			sourceTree = "<group>";
+		};
+		EF2B1F231E950725008DE868 /* Guide */ = {
+			isa = PBXGroup;
+			children = (
+				EFA2FB9E1E965B3D00C10EDD /* SWGuideCell.h */,
+				EFA2FB9F1E965B3D00C10EDD /* SWGuideCell.m */,
+				EF2B1F241E950745008DE868 /* SWTourCell.h */,
+				EF2B1F251E950745008DE868 /* SWTourCell.m */,
+			);
+			name = Guide;
+			sourceTree = "<group>";
+		};
+		EF2B1F271E951F8D008DE868 /* UIRefreshControl+UITableView */ = {
+			isa = PBXGroup;
+			children = (
+				EF2B1F281E951F8D008DE868 /* LICENSE */,
+				EF2B1F291E951F8D008DE868 /* UIRefreshControl+UITableView.h */,
+				EF2B1F2A1E951F8D008DE868 /* UIRefreshControl+UITableView.m */,
+			);
+			path = "UIRefreshControl+UITableView";
+			sourceTree = "<group>";
+		};
+		EF365CA01ECEA24000944AEB /* Dictionary */ = {
+			isa = PBXGroup;
+			children = (
+				EF2B1F0A1E92DAE9008DE868 /* SWLanguage.h */,
+				EF2B1F0B1E92DAE9008DE868 /* SWLanguage.m */,
+			);
+			name = Dictionary;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		EF365CA11ECEA3AE00944AEB /* Dictionary */ = {
+			isa = PBXGroup;
+			children = (
+				EF2B1F071E92D31B008DE868 /* SWLanguageService.h */,
+				EF2B1F081E92D31B008DE868 /* SWLanguageService.m */,
+			);
+			name = Dictionary;
+			sourceTree = "<group>";
+		};
+		EF52C4361EBB50AD00B1052D /* Popup */ = {
+			isa = PBXGroup;
+			children = (
+				EF52C4371EBB50D600B1052D /* SWTourPopup.h */,
+				EF52C4381EBB50D600B1052D /* SWTourPopup.m */,
+				EF8422681EC76692002E207C /* SWInvitePopup.h */,
+				EF8422691EC76692002E207C /* SWInvitePopup.m */,
+				EF47F1E51ED5D94F003E4CE8 /* SWRatePopup.h */,
+				EF47F1E61ED5D94F003E4CE8 /* SWRatePopup.m */,
+			);
+			name = Popup;
+			sourceTree = "<group>";
+		};
+		EF52C43A1EBB5E7300B1052D /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+				EF45ED8B1EB7F445008F5D75 /* SWMapInfoView.xib */,
+				EF52C4341EBB4FD800B1052D /* SWTourPopup.xib */,
+				EF84226B1EC76769002E207C /* SWInvitePopup.xib */,
+				EF365CA21ECEF6EC00944AEB /* SWActiveTourView.xib */,
+				EF47F1E31ED5D2CB003E4CE8 /* SWRatePopup.xib */,
+			);
+			name = XIB;
+			sourceTree = "<group>";
+		};
+		EF52C4411EBBB16C00B1052D /* Payment */ = {
+			isa = PBXGroup;
+			children = (
+				EF52C4421EBBB18800B1052D /* SWPaymentView.h */,
+				EF52C4431EBBB18800B1052D /* SWPaymentView.m */,
+			);
+			name = Payment;
+			sourceTree = "<group>";
+		};
+		EF52C44B1EBCCD2000B1052D /* BookingInfo */ = {
+			isa = PBXGroup;
+			children = (
+				EF52C4451EBCB57700B1052D /* SWBookInfoView.h */,
+				EF52C4461EBCB57700B1052D /* SWBookInfoView.m */,
+			);
+			name = BookingInfo;
+			sourceTree = "<group>";
+		};
+		EF52C44C1EBCCD3800B1052D /* BookingInfo */ = {
+			isa = PBXGroup;
+			children = (
+				EF52C4481EBCB5AD00B1052D /* SWBookInfoController.h */,
+				EF52C4491EBCB5AD00B1052D /* SWBookInfoController.m */,
+			);
+			name = BookingInfo;
+			sourceTree = "<group>";
+		};
+		EF52C44F1EBF3A8500B1052D /* Booking */ = {
+			isa = PBXGroup;
+			children = (
+				EF8842B81E9A0B14002885B1 /* SWBookTourService.h */,
+				EF8842B91E9A0B14002885B1 /* SWBookTourService.m */,
+				EF6920261EA1D5C200147B94 /* SWBookInfoService.h */,
+				EF6920271EA1D5C200147B94 /* SWBookInfoService.m */,
+			);
+			name = Booking;
+			sourceTree = "<group>";
+		};
+		EF52C4501EBF3D7800B1052D /* History */ = {
+			isa = PBXGroup;
+			children = (
+				EF52C4511EBF3D9600B1052D /* SWHistoryController.h */,
+				EF52C4521EBF3D9600B1052D /* SWHistoryController.m */,
+			);
+			name = History;
+			sourceTree = "<group>";
+		};
+		EF52C4541EBF3DD900B1052D /* History */ = {
+			isa = PBXGroup;
+			children = (
+				EF52C4551EBF3DF000B1052D /* SWHistoryView.h */,
+				EF52C4561EBF3DF000B1052D /* SWHistoryView.m */,
+				EF365CA41ECEFFFF00944AEB /* SWActiveTourView.h */,
+				EF365CA51ECEFFFF00944AEB /* SWActiveTourView.m */,
+			);
+			name = History;
+			sourceTree = "<group>";
+		};
+		EF58BDFB1ECC749200EF22F8 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				EF58BDFC1ECC74B000EF22F8 /* SWHistoryCell.h */,
+				EF58BDFD1ECC74B000EF22F8 /* SWHistoryCell.m */,
+			);
+			name = History;
+			sourceTree = "<group>";
+		};
+		EF6920291EA2035100147B94 /* Payment */ = {
+			isa = PBXGroup;
+			children = (
+				EF69202A1EA2037000147B94 /* SWPaymentController.h */,
+				EF69202B1EA2037000147B94 /* SWPaymentController.m */,
+			);
+			name = Payment;
+			sourceTree = "<group>";
+		};
+		EF69B6981ECC833A00B53126 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				EF69B6991ECC835E00B53126 /* SWHistory.h */,
+				EF69B69A1ECC835E00B53126 /* SWHistory.m */,
+			);
+			name = History;
+			sourceTree = "<group>";
+		};
+		EF70F4271E923BC90041FDA8 /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+				EF70F4281E923BC90041FDA8 /* SWMapView.h */,
+				EF70F4291E923BC90041FDA8 /* SWMapView.m */,
+			);
+			name = MapView;
+			path = Service/MapView;
+			sourceTree = "<group>";
+		};
+		EF70F42B1E925B2A0041FDA8 /* NearMe */ = {
+			isa = PBXGroup;
+			children = (
+				EF70F42C1E925B470041FDA8 /* SWNearMeController.h */,
+				EF70F42D1E925B470041FDA8 /* SWNearMeController.m */,
+				EF70F42F1E925C060041FDA8 /* SWMapController.h */,
+				EF70F4301E925C060041FDA8 /* SWMapController.m */,
+				EFA2FBA11E9668A600C10EDD /* SWGuidDetailController.h */,
+				EFA2FBA21E9668A600C10EDD /* SWGuidDetailController.m */,
+				EFA2FBA41E9668BE00C10EDD /* SWTourController.h */,
+				EFA2FBA51E9668BE00C10EDD /* SWTourController.m */,
+			);
+			name = NearMe;
+			sourceTree = "<group>";
+		};
+		EF70F4341E9261B50041FDA8 /* DLLocationTracker */ = {
+			isa = PBXGroup;
+			children = (
+				EF70F4351E9261B50041FDA8 /* DLLocationTracker.h */,
+				EF70F4361E9261B50041FDA8 /* DLLocationTracker.m */,
+			);
+			path = DLLocationTracker;
+			sourceTree = "<group>";
+		};
+		EF70F43E1E92A71E0041FDA8 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				EF70F4401E92A7440041FDA8 /* SWLocation.h */,
+				EF70F4411E92A7440041FDA8 /* SWLocation.m */,
+			);
+			name = Location;
+			sourceTree = "<group>";
+		};
+		EF70F43F1E92A72D0041FDA8 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				EF70F4431E92A7650041FDA8 /* SWLocationService.h */,
+				EF70F4441E92A7650041FDA8 /* SWLocationService.m */,
+			);
+			name = Location;
+			sourceTree = "<group>";
+		};
+		EF75D2621E9E41F600AE4DB7 /* CustomDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				EF75D2631E9E41F600AE4DB7 /* TRCustomDatePicker.h */,
+				EF75D2641E9E41F600AE4DB7 /* TRCustomDatePicker.m */,
+			);
+			path = CustomDatePicker;
+			sourceTree = "<group>";
+		};
+		EF75D2651E9E41F600AE4DB7 /* TRCustomPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				EF75D2661E9E41F600AE4DB7 /* TRCustomPickerView.h */,
+				EF75D2671E9E41F600AE4DB7 /* TRCustomPickerView.m */,
+			);
+			path = TRCustomPickerView;
+			sourceTree = "<group>";
+		};
+		EF8226D31ED93329007A098F /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				EF8226D41ED93356007A098F /* SWChatService.h */,
+				EF8226D51ED93356007A098F /* SWChatService.m */,
+			);
+			name = Chat;
+			sourceTree = "<group>";
+		};
+		EF8226D71ED93942007A098F /* Inbox */ = {
+			isa = PBXGroup;
+			children = (
+				EF8226D81ED9395C007A098F /* SWInboxController.h */,
+				EF8226D91ED9395C007A098F /* SWInboxController.m */,
+				EF0A27E61ED9AF1500E4369F /* SWChatController.h */,
+				EF0A27E71ED9AF1500E4369F /* SWChatController.m */,
+			);
+			name = Inbox;
+			sourceTree = "<group>";
+		};
+		EF8226DB1ED939B3007A098F /* Inbox */ = {
+			isa = PBXGroup;
+			children = (
+				EF8226DC1ED939D0007A098F /* SWInboxView.h */,
+				EF8226DD1ED939D0007A098F /* SWInboxView.m */,
+				EF0A27E91ED9B33500E4369F /* SWChatView.h */,
+				EF0A27EA1ED9B33500E4369F /* SWChatView.m */,
+			);
+			name = Inbox;
+			sourceTree = "<group>";
+		};
+		EF8226DF1ED93FF0007A098F /* Inbox */ = {
+			isa = PBXGroup;
+			children = (
+				EF8226E01ED9400F007A098F /* SWListChatCell.h */,
+				EF8226E11ED9400F007A098F /* SWListChatCell.m */,
+				EF9543101EDC03EA008A9E4C /* SWChatCell.h */,
+				EF9543111EDC03EA008A9E4C /* SWChatCell.m */,
+			);
+			name = Inbox;
+			sourceTree = "<group>";
+		};
+		EF84225C1EC5F738002E207C /* Agreement */ = {
+			isa = PBXGroup;
+			children = (
+				EF84225D1EC5F77E002E207C /* SWAgreementController.h */,
+				EF84225E1EC5F77E002E207C /* SWAgreementController.m */,
+			);
+			name = Agreement;
+			sourceTree = "<group>";
+		};
+		EF85AF631E9D011100B72017 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				EFEB92421EC4860100557E5C /* SWEditProfileCell.h */,
+				EFEB92431EC4860100557E5C /* SWEditProfileCell.m */,
+				EF85AF641E9D012C00B72017 /* SWInfoProfileCell.h */,
+				EF85AF651E9D012C00B72017 /* SWInfoProfileCell.m */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		EF85AF671E9D2C4A00B72017 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				EF85AF681E9D2C6100B72017 /* SWProfile.h */,
+				EF85AF691E9D2C6100B72017 /* SWProfile.m */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		EF85AF6B1E9D2D9B00B72017 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				EF85AF6C1E9D2DB500B72017 /* SWProfileService.h */,
+				EF85AF6D1E9D2DB500B72017 /* SWProfileService.m */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		EF873BFC1ED3071600396579 /* Bookmarks */ = {
+			isa = PBXGroup;
+			children = (
+				EF873BFE1ED3074700396579 /* SWBookmarksController.h */,
+				EF873BFF1ED3074700396579 /* SWBookmarksController.m */,
+			);
+			name = Bookmarks;
+			sourceTree = "<group>";
+		};
+		EF873BFD1ED3072800396579 /* Bookmarks */ = {
+			isa = PBXGroup;
+			children = (
+				EF873C011ED30BFE00396579 /* SWBookmarksView.h */,
+				EF873C021ED30BFE00396579 /* SWBookmarksView.m */,
+			);
+			name = Bookmarks;
+			sourceTree = "<group>";
+		};
+		EF89C1DE1E9BBE6F0081AB54 /* PushNotify */ = {
+			isa = PBXGroup;
+			children = (
+				EF89C1DF1E9BBE9D0081AB54 /* SWPushService.h */,
+				EF89C1E01E9BBE9D0081AB54 /* SWPushService.m */,
+			);
+			name = PushNotify;
+			sourceTree = "<group>";
+		};
+		EF89C1E21E9BBEBF0081AB54 /* PushNotify */ = {
+			isa = PBXGroup;
+			children = (
+				EF89C1E31E9BBED40081AB54 /* SWPush.h */,
+				EF89C1E41E9BBED40081AB54 /* SWPush.m */,
+			);
+			name = PushNotify;
+			sourceTree = "<group>";
+		};
+		EF9885A91E89837A0089A0EC = {
+			isa = PBXGroup;
+			children = (
+				EF9885B41E89837A0089A0EC /* Guidoo */,
+				EF9885B31E89837A0089A0EC /* Products */,
+				9F1F26F45C9252CE2541EEAD /* Pods */,
+				01E15420BA01451AB8AED1BA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EF9885B31E89837A0089A0EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF9885B21E89837A0089A0EC /* Guidoo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF9885B41E89837A0089A0EC /* Guidoo */ = {
+			isa = PBXGroup;
+			children = (
+				EF9885CD1E89839B0089A0EC /* AppDelegate */,
+				EF9885CE1E8983AD0089A0EC /* Controllers */,
+				EF9885D11E8A19160089A0EC /* Views */,
+				EF2B1F021E92C978008DE868 /* Cells */,
+				EF9885D91E8A1AC50089A0EC /* Service */,
+				EF9885CC1E89838A0089A0EC /* Storyboard */,
+				EF9885B51E89837A0089A0EC /* Supporting Files */,
+			);
+			path = Guidoo;
+			sourceTree = "<group>";
+		};
+		EF9885B51E89837A0089A0EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF8842BB1E9A2925002885B1 /* Guidoo.entitlements */,
+				EF9885D81E8A19C40089A0EC /* AppConstants.h */,
+				EF9885C61E89837A0089A0EC /* Info.plist */,
+				EF89C1DC1E9BA50F0081AB54 /* GoogleService-Info.plist */,
+				EF9885B61E89837A0089A0EC /* main.m */,
+				EF9885D01E8983E70089A0EC /* Guidoo-prefix.pch */,
+				EF4AC5E61EA8684600AAE579 /* CountryCode.plist */,
+				EF8422601EC5FD11002E207C /* terms.html */,
+				EF84225A1EC5F6D5002E207C /* Terms.txt */,
+				EF52C43F1EBB624200B1052D /* Localizable.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF9885CC1E89838A0089A0EC /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				EF52C43A1EBB5E7300B1052D /* XIB */,
+				EF9885C11E89837A0089A0EC /* Assets.xcassets */,
+				EF9885BE1E89837A0089A0EC /* Main.storyboard */,
+				EF9885C31E89837A0089A0EC /* LaunchScreen.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		EF9885CD1E89839B0089A0EC /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				EF9885B81E89837A0089A0EC /* AppDelegate.h */,
+				EF9885B91E89837A0089A0EC /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		EF9885CE1E8983AD0089A0EC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EF70F42B1E925B2A0041FDA8 /* NearMe */,
+				EF873BFC1ED3071600396579 /* Bookmarks */,
+				EF52C4501EBF3D7800B1052D /* History */,
+				EF8226D71ED93942007A098F /* Inbox */,
+				EF98860B1E8A513B0089A0EC /* Profile */,
+				EF9885D21E8A19270089A0EC /* Main */,
+				EF9885CF1E8983C10089A0EC /* Auth */,
+				EF84225C1EC5F738002E207C /* Agreement */,
+				EF6920291EA2035100147B94 /* Payment */,
+				EF52C44C1EBCCD3800B1052D /* BookingInfo */,
+				EF9885D31E8A19700089A0EC /* Other */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		EF9885CF1E8983C10089A0EC /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				EF25CA391E8A6C1B00417459 /* SWPhoneController.h */,
+				EF25CA3A1E8A6C1B00417459 /* SWPhoneController.m */,
+				EF3E7BC91EA66E66002FFE87 /* SWConfirmController.h */,
+				EF3E7BCA1EA66E66002FFE87 /* SWConfirmController.m */,
+			);
+			name = Auth;
+			sourceTree = "<group>";
+		};
+		EF9885D11E8A19160089A0EC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EF2B1F1F1E94DBF1008DE868 /* NearMe */,
+				EF873BFD1ED3072800396579 /* Bookmarks */,
+				EF52C4541EBF3DD900B1052D /* History */,
+				EF8226DB1ED939B3007A098F /* Inbox */,
+				EF52C4411EBBB16C00B1052D /* Payment */,
+				EF52C44B1EBCCD2000B1052D /* BookingInfo */,
+				EF70F4271E923BC90041FDA8 /* MapView */,
+				EF98860A1E8A3F400089A0EC /* Main */,
+				EF98860F1E8A51940089A0EC /* Profile */,
+				EF25CA3C1E8A6C2200417459 /* Auth */,
+				EF52C4361EBB50AD00B1052D /* Popup */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		EF9885D21E8A19270089A0EC /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				EF9885BB1E89837A0089A0EC /* SWMainController.h */,
+				EF9885BC1E89837A0089A0EC /* SWMainController.m */,
+				EF5939F71EA7947400E9AE2E /* SWCompleteController.h */,
+				EF5939F81EA7947400E9AE2E /* SWCompleteController.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		EF9885D31E8A19700089A0EC /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				EF2B1F131E93F925008DE868 /* StartLoader */,
+				EF25CA4F1E8A819300417459 /* TabbarController */,
+				EF9885D41E8A19850089A0EC /* Base */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		EF9885D41E8A19850089A0EC /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				EF9885D51E8A19A20089A0EC /* SWBaseController.h */,
+				EF9885D61E8A19A20089A0EC /* SWBaseController.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		EF9885D91E8A1AC50089A0EC /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				EFA41CFB1ED82867008E0CA8 /* CoreData */,
+				EF9885EB1E8A1AC50089A0EC /* Models */,
+				EF9885DF1E8A1AC50089A0EC /* RestAPI */,
+				EF2B1F271E951F8D008DE868 /* UIRefreshControl+UITableView */,
+				EF70F4341E9261B50041FDA8 /* DLLocationTracker */,
+				EF75D2621E9E41F600AE4DB7 /* CustomDatePicker */,
+				EF75D2651E9E41F600AE4DB7 /* TRCustomPickerView */,
+				EF9885DA1E8A1AC50089A0EC /* Extension */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		EF9885DA1E8A1AC50089A0EC /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EF9885DD1E8A1AC50089A0EC /* NSObject+NSObject_Custom.h */,
+				EF9885DE1E8A1AC50089A0EC /* NSObject+NSObject_Custom.m */,
+				EF9885DB1E8A1AC50089A0EC /* NSData+Base64.h */,
+				EF9885DC1E8A1AC50089A0EC /* NSData+Base64.m */,
+			);
+			name = Extension;
+			path = Category;
+			sourceTree = "<group>";
+		};
+		EF9885DF1E8A1AC50089A0EC /* RestAPI */ = {
+			isa = PBXGroup;
+			children = (
+				EF9885E01E8A1AC50089A0EC /* WebManager */,
+				EF9886041E8A20660089A0EC /* WebServises */,
+			);
+			path = RestAPI;
+			sourceTree = "<group>";
+		};
+		EF9885E01E8A1AC50089A0EC /* WebManager */ = {
+			isa = PBXGroup;
+			children = (
+				EF9885E91E8A1AC50089A0EC /* SWWebManager.h */,
+				EF9885EA1E8A1AC50089A0EC /* SWWebManager.m */,
+			);
+			name = WebManager;
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		EF9885EB1E8A1AC50089A0EC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EFA41D1C1ED87009008E0CA8 /* Chat */,
+				EF69B6981ECC833A00B53126 /* History */,
+				EF85AF671E9D2C4A00B72017 /* Profile */,
+				EF89C1E21E9BBEBF0081AB54 /* PushNotify */,
+				EF2B1F1B1E94DA8E008DE868 /* Guide */,
+				EF70F43E1E92A71E0041FDA8 /* Location */,
+				EF9886031E8A1C1D0089A0EC /* Auth */,
+				EF365CA01ECEA24000944AEB /* Dictionary */,
+				EF9886021E8A1C0F0089A0EC /* Base */,
+			);
+			name = Models;
+			path = RestAPI/Models;
+			sourceTree = "<group>";
+		};
+		EF9886001E8A1BAE0089A0EC /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				EF9885E31E8A1AC50089A0EC /* SWRegisterService.h */,
+				EF9885E41E8A1AC50089A0EC /* SWRegisterService.m */,
+				EF25CA431E8A7B7E00417459 /* SWRegisterPhoneService.h */,
+				EF25CA441E8A7B7E00417459 /* SWRegisterPhoneService.m */,
+				EF25CA491E8A7E1900417459 /* SWConfirmPhoneService.h */,
+				EF25CA4A1E8A7E1900417459 /* SWConfirmPhoneService.m */,
+				EF70F4381E926FF10041FDA8 /* SWLoginService.h */,
+				EF70F4391E926FF10041FDA8 /* SWLoginService.m */,
+				EF2B1F101E938B7B008DE868 /* SWPreferencesService.h */,
+				EF2B1F111E938B7B008DE868 /* SWPreferencesService.m */,
+			);
+			name = Auth;
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		EF9886011E8A1BE40089A0EC /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				EF9885E11E8A1AC50089A0EC /* SWObjectManager.h */,
+				EF9885E21E8A1AC50089A0EC /* SWObjectManager.m */,
+			);
+			name = Base;
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		EF9886021E8A1C0F0089A0EC /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				EF9885EC1E8A1AC50089A0EC /* SWBaseDataModel.h */,
+				EF9885ED1E8A1AC50089A0EC /* SWBaseDataModel.m */,
+				EF9885F01E8A1AC50089A0EC /* SWRestKitMappableModel.h */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		EF9886031E8A1C1D0089A0EC /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				EF70F43B1E9270540041FDA8 /* SWLogin.h */,
+				EF70F43C1E9270540041FDA8 /* SWLogin.m */,
+				EF9885EE1E8A1AC50089A0EC /* SWRegister.h */,
+				EF9885EF1E8A1AC50089A0EC /* SWRegister.m */,
+				EF25CA401E8A79B100417459 /* SWRegisterPhone.h */,
+				EF25CA411E8A79B100417459 /* SWRegisterPhone.m */,
+				EF25CA4C1E8A7E3D00417459 /* SWConfirmPhone.h */,
+				EF25CA4D1E8A7E3D00417459 /* SWConfirmPhone.m */,
+				EF2B1F0D1E938A5A008DE868 /* SWPreferences.h */,
+				EF2B1F0E1E938A5A008DE868 /* SWPreferences.m */,
+			);
+			name = Auth;
+			sourceTree = "<group>";
+		};
+		EF9886041E8A20660089A0EC /* WebServises */ = {
+			isa = PBXGroup;
+			children = (
+				EF8226D31ED93329007A098F /* Chat */,
+				EF52C44F1EBF3A8500B1052D /* Booking */,
+				EF85AF6B1E9D2D9B00B72017 /* Profile */,
+				EF89C1DE1E9BBE6F0081AB54 /* PushNotify */,
+				EF2B1F171E94DA59008DE868 /* Guide */,
+				EF70F43F1E92A72D0041FDA8 /* Location */,
+				EF9886001E8A1BAE0089A0EC /* Auth */,
+				EF365CA11ECEA3AE00944AEB /* Dictionary */,
+				EF9886011E8A1BE40089A0EC /* Base */,
+			);
+			name = WebServises;
+			sourceTree = "<group>";
+		};
+		EF98860A1E8A3F400089A0EC /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				EF9886071E8A3F3C0089A0EC /* SWMainView.h */,
+				EF9886081E8A3F3C0089A0EC /* SWMainView.m */,
+				EF5939F41EA7946100E9AE2E /* SWCompleteView.h */,
+				EF5939F51EA7946100E9AE2E /* SWCompleteView.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		EF98860B1E8A513B0089A0EC /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				EF2B1EFF1E92C0D5008DE868 /* SWFTSController.h */,
+				EF2B1F001E92C0D5008DE868 /* SWFTSController.m */,
+				EF2D5E2C1E96275A00005149 /* SWProfileController.h */,
+				EF2D5E2D1E96275A00005149 /* SWProfileController.m */,
+				EF85AF571E9CFD7300B72017 /* SWInfoProfileController.h */,
+				EF85AF581E9CFD7300B72017 /* SWInfoProfileController.m */,
+				EF85AF5A1E9CFDBC00B72017 /* SWEditProfileController.h */,
+				EF85AF5B1E9CFDBC00B72017 /* SWEditProfileController.m */,
+				EF8422621EC6110F002E207C /* SWChoseController.h */,
+				EF8422631EC6110F002E207C /* SWChoseController.m */,
+				EF75D25C1E9E0F5800AE4DB7 /* SWPhoneProfileController.h */,
+				EF75D25D1E9E0F5800AE4DB7 /* SWPhoneProfileController.m */,
+				EF98860C1E8A51900089A0EC /* SWCreateProfileController.h */,
+				EF98860D1E8A51900089A0EC /* SWCreateProfileController.m */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		EF98860F1E8A51940089A0EC /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				EF2B1EFC1E92C095008DE868 /* SWFTSView.h */,
+				EF2B1EFD1E92C095008DE868 /* SWFTSView.m */,
+				EF85AF541E9CF0D500B72017 /* SWProfileView.h */,
+				EF85AF551E9CF0D500B72017 /* SWProfileView.m */,
+				EF85AF601E9CFE1A00B72017 /* SWEditProfileView.h */,
+				EF85AF611E9CFE1A00B72017 /* SWEditProfileView.m */,
+				EF8422651EC61136002E207C /* SWChoseView.h */,
+				EF8422661EC61136002E207C /* SWChoseView.m */,
+				EF75D25F1E9E0F7E00AE4DB7 /* SWPhoneProfileView.h */,
+				EF85AF5D1E9CFE0A00B72017 /* SWInfoProfileView.h */,
+				EF85AF5E1E9CFE0A00B72017 /* SWInfoProfileView.m */,
+				EF75D2601E9E0F7E00AE4DB7 /* SWPhoneProfileView.m */,
+				EF9886101E8A51B20089A0EC /* SWCreateProfileView.h */,
+				EF9886111E8A51B20089A0EC /* SWCreateProfileView.m */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		EFA41CFB1ED82867008E0CA8 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				EFA41D041ED82D41008E0CA8 /* DataManager */,
+				EFA41D051ED82D51008E0CA8 /* Model */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		EFA41D041ED82D41008E0CA8 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				EFA41CFC1ED8288D008E0CA8 /* SWDataManager.h */,
+				EFA41CFD1ED8288D008E0CA8 /* SWDataManager.m */,
+			);
+			name = DataManager;
+			sourceTree = "<group>";
+		};
+		EFA41D051ED82D51008E0CA8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EF0A27E01ED94C9500E4369F /* Chat.xcdatamodeld */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		EFA41D1C1ED87009008E0CA8 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				EFA41D1D1ED87031008E0CA8 /* SWChatMessage.h */,
+				EFA41D1E1ED87031008E0CA8 /* SWChatMessage.m */,
+			);
+			name = Chat;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF9885B11E89837A0089A0EC /* Guidoo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF9885C91E89837A0089A0EC /* Build configuration list for PBXNativeTarget "Guidoo" */;
+			buildPhases = (
+				847478330BB445A302129737 /* [CP] Check Pods Manifest.lock */,
+				EF9885AE1E89837A0089A0EC /* Sources */,
+				EF9885AF1E89837A0089A0EC /* Frameworks */,
+				EF9885B01E89837A0089A0EC /* Resources */,
+				C2A7579BCFB69694EDF8DF29 /* [CP] Embed Pods Frameworks */,
+				C3AF66720D8773D006281DEC /* [CP] Copy Pods Resources */,
+				EF2D5E271E955D3400005149 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Guidoo;
+			productName = Guidoo;
+			productReference = EF9885B21E89837A0089A0EC /* Guidoo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF9885AA1E89837A0089A0EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = SBApps;
+				TargetAttributes = {
+					EF9885B11E89837A0089A0EC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 46353Z8TA3;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = EF9885AD1E89837A0089A0EC /* Build configuration list for PBXProject "Guidoo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF9885A91E89837A0089A0EC;
+			productRefGroup = EF9885B31E89837A0089A0EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF9885B11E89837A0089A0EC /* Guidoo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF9885B01E89837A0089A0EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF84225B1EC5F6D5002E207C /* Terms.txt in Resources */,
+				EF52C4351EBB4FD800B1052D /* SWTourPopup.xib in Resources */,
+				EF47F1E41ED5D2CB003E4CE8 /* SWRatePopup.xib in Resources */,
+				EF9885C51E89837A0089A0EC /* LaunchScreen.storyboard in Resources */,
+				EF365CA31ECEF6EC00944AEB /* SWActiveTourView.xib in Resources */,
+				EF9885C21E89837A0089A0EC /* Assets.xcassets in Resources */,
+				EF4AC5E71EA8684600AAE579 /* CountryCode.plist in Resources */,
+				EF52C43D1EBB624200B1052D /* Localizable.strings in Resources */,
+				EF89C1DD1E9BA50F0081AB54 /* GoogleService-Info.plist in Resources */,
+				EF2B1F2B1E951F8D008DE868 /* LICENSE in Resources */,
+				EF45ED8D1EB7F445008F5D75 /* SWMapInfoView.xib in Resources */,
+				EF84226C1EC76769002E207C /* SWInvitePopup.xib in Resources */,
+				EF9885C01E89837A0089A0EC /* Main.storyboard in Resources */,
+				EF8422611EC5FD11002E207C /* terms.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		847478330BB445A302129737 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C2A7579BCFB69694EDF8DF29 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Guidoo/Pods-Guidoo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3AF66720D8773D006281DEC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Guidoo/Pods-Guidoo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF2D5E271E955D3400005149 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 1db9736712912ced96512d3e3419c07b476a097a a4e4a79f0d80ab3116bdd98264199197df0f4fbd52c8eda3bb4735acfd1cc689";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF9885AE1E89837A0089A0EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF85AF5F1E9CFE0A00B72017 /* SWInfoProfileView.m in Sources */,
+				EF52C44A1EBCB5AD00B1052D /* SWBookInfoController.m in Sources */,
+				EF52C4531EBF3D9600B1052D /* SWHistoryController.m in Sources */,
+				EF98860E1E8A51900089A0EC /* SWCreateProfileController.m in Sources */,
+				EF2B1F0C1E92DAE9008DE868 /* SWLanguage.m in Sources */,
+				EF2B1F091E92D31B008DE868 /* SWLanguageService.m in Sources */,
+				EF25CA4B1E8A7E1900417459 /* SWConfirmPhoneService.m in Sources */,
+				EF9885FC1E8A1AC50089A0EC /* SWBaseDataModel.m in Sources */,
+				EF9885BD1E89837A0089A0EC /* SWMainController.m in Sources */,
+				EF2D5E2E1E96275A00005149 /* SWProfileController.m in Sources */,
+				EF8226E21ED9400F007A098F /* SWListChatCell.m in Sources */,
+				EF8422641EC6110F002E207C /* SWChoseController.m in Sources */,
+				EF52C4441EBBB18800B1052D /* SWPaymentView.m in Sources */,
+				EF8422671EC61136002E207C /* SWChoseView.m in Sources */,
+				EF8226DE1ED939D0007A098F /* SWInboxView.m in Sources */,
+				EF9885BA1E89837A0089A0EC /* AppDelegate.m in Sources */,
+				EF75D2691E9E41F600AE4DB7 /* TRCustomPickerView.m in Sources */,
+				EF9885F61E8A1AC50089A0EC /* NSObject+NSObject_Custom.m in Sources */,
+				EF70F4421E92A7440041FDA8 /* SWLocation.m in Sources */,
+				EFEB92441EC4860100557E5C /* SWEditProfileCell.m in Sources */,
+				EF45ED871EB65F1E008F5D75 /* SWNeaMeMapView.m in Sources */,
+				EF70F43D1E9270540041FDA8 /* SWLogin.m in Sources */,
+				EFA2FBA91E96695200C10EDD /* SWGuidDateilView.m in Sources */,
+				EF70F4451E92A7650041FDA8 /* SWLocationService.m in Sources */,
+				EF8842B71E9A0ABB002885B1 /* SWBookTour.m in Sources */,
+				EF3E7BCB1EA66E66002FFE87 /* SWConfirmController.m in Sources */,
+				EF2B1F061E92CBAE008DE868 /* SWFTSLanguageCell.m in Sources */,
+				EF25CA451E8A7B7E00417459 /* SWRegisterPhoneService.m in Sources */,
+				EF9885F71E8A1AC50089A0EC /* SWObjectManager.m in Sources */,
+				EF365CA61ECEFFFF00944AEB /* SWActiveTourView.m in Sources */,
+				EF52C4571EBF3DF000B1052D /* SWHistoryView.m in Sources */,
+				EF70F4311E925C060041FDA8 /* SWMapController.m in Sources */,
+				EFA2FBA31E9668A600C10EDD /* SWGuidDetailController.m in Sources */,
+				EF70F43A1E926FF10041FDA8 /* SWLoginService.m in Sources */,
+				EF6920281EA1D5C200147B94 /* SWBookInfoService.m in Sources */,
+				EF0A27E81ED9AF1500E4369F /* SWChatController.m in Sources */,
+				EF873C001ED3074700396579 /* SWBookmarksController.m in Sources */,
+				EF2B1F1A1E94DA84008DE868 /* SWGuideService.m in Sources */,
+				EF69202C1EA2037000147B94 /* SWPaymentController.m in Sources */,
+				EF0A27E21ED94C9500E4369F /* Chat.xcdatamodeld in Sources */,
+				EF85AF561E9CF0D500B72017 /* SWProfileView.m in Sources */,
+				EF2B1F2C1E951F8D008DE868 /* UIRefreshControl+UITableView.m in Sources */,
+				EF47F1E71ED5D94F003E4CE8 /* SWRatePopup.m in Sources */,
+				EF2B1F011E92C0D5008DE868 /* SWFTSController.m in Sources */,
+				EFA2FBAC1E96696800C10EDD /* SWTourView.m in Sources */,
+				EFA2FBA61E9668BE00C10EDD /* SWTourController.m in Sources */,
+				EF9885FD1E8A1AC50089A0EC /* SWRegister.m in Sources */,
+				EF70F4371E9261B50041FDA8 /* DLLocationTracker.m in Sources */,
+				EF25CA3F1E8A6C6100417459 /* SWPhoneView.m in Sources */,
+				EFA41CFE1ED8288D008E0CA8 /* SWDataManager.m in Sources */,
+				EF2B1F1E1E94DAA3008DE868 /* SWGuide.m in Sources */,
+				EF9885F51E8A1AC50089A0EC /* NSData+Base64.m in Sources */,
+				EF9886121E8A51B20089A0EC /* SWCreateProfileView.m in Sources */,
+				EF25CA521E8A81CC00417459 /* SWTabbarController.m in Sources */,
+				EFA41D1F1ED87031008E0CA8 /* SWChatMessage.m in Sources */,
+				EF85AF621E9CFE1A00B72017 /* SWEditProfileView.m in Sources */,
+				EF58BDFE1ECC74B000EF22F8 /* SWHistoryCell.m in Sources */,
+				EF2B1F161E93F949008DE868 /* SWStartLoaderController.m in Sources */,
+				EF8226DA1ED9395C007A098F /* SWInboxController.m in Sources */,
+				EF25CA421E8A79B100417459 /* SWRegisterPhone.m in Sources */,
+				EF8226D61ED93356007A098F /* SWChatService.m in Sources */,
+				EF85AF6E1E9D2DB500B72017 /* SWProfileService.m in Sources */,
+				EF25CA4E1E8A7E3D00417459 /* SWConfirmPhone.m in Sources */,
+				EF5939F91EA7947400E9AE2E /* SWCompleteController.m in Sources */,
+				EF2B1F0F1E938A5A008DE868 /* SWPreferences.m in Sources */,
+				EF52C4471EBCB57700B1052D /* SWBookInfoView.m in Sources */,
+				EF9885F81E8A1AC50089A0EC /* SWRegisterService.m in Sources */,
+				EF75D2611E9E0F7E00AE4DB7 /* SWPhoneProfileView.m in Sources */,
+				EF75D2681E9E41F600AE4DB7 /* TRCustomDatePicker.m in Sources */,
+				EF2B1F221E94DC09008DE868 /* SWNearMeView.m in Sources */,
+				EF85AF591E9CFD7300B72017 /* SWInfoProfileController.m in Sources */,
+				EF84225F1EC5F77E002E207C /* SWAgreementController.m in Sources */,
+				EF8842BA1E9A0B14002885B1 /* SWBookTourService.m in Sources */,
+				EF9885D71E8A19A20089A0EC /* SWBaseController.m in Sources */,
+				EF6920251EA1D5A600147B94 /* SWBookInfo.m in Sources */,
+				EF9886091E8A3F3C0089A0EC /* SWMainView.m in Sources */,
+				EF3E7BCE1EA66FC2002FFE87 /* SWConfirmView.m in Sources */,
+				EF70F42E1E925B470041FDA8 /* SWNearMeController.m in Sources */,
+				EFA2FBA01E965B3D00C10EDD /* SWGuideCell.m in Sources */,
+				EF873C031ED30BFE00396579 /* SWBookmarksView.m in Sources */,
+				EF2B1F261E950745008DE868 /* SWTourCell.m in Sources */,
+				EF9543121EDC03EB008A9E4C /* SWChatCell.m in Sources */,
+				EF5939F61EA7946100E9AE2E /* SWCompleteView.m in Sources */,
+				EF2B1F121E938B7B008DE868 /* SWPreferencesService.m in Sources */,
+				EF89C1E51E9BBED40081AB54 /* SWPush.m in Sources */,
+				EF85AF5C1E9CFDBC00B72017 /* SWEditProfileController.m in Sources */,
+				EF89C1E11E9BBE9D0081AB54 /* SWPushService.m in Sources */,
+				EF52C4391EBB50D600B1052D /* SWTourPopup.m in Sources */,
+				EF25CA3B1E8A6C1B00417459 /* SWPhoneController.m in Sources */,
+				EF0A27EB1ED9B33500E4369F /* SWChatView.m in Sources */,
+				EF84226A1EC76692002E207C /* SWInvitePopup.m in Sources */,
+				EF2B1EFE1E92C095008DE868 /* SWFTSView.m in Sources */,
+				EF9885B71E89837A0089A0EC /* main.m in Sources */,
+				EF45ED8C1EB7F445008F5D75 /* SWMapInfoView.m in Sources */,
+				EF69B69B1ECC835E00B53126 /* SWHistory.m in Sources */,
+				EF85AF6A1E9D2C6100B72017 /* SWProfile.m in Sources */,
+				EF70F42A1E923BC90041FDA8 /* SWMapView.m in Sources */,
+				EF75D25E1E9E0F5800AE4DB7 /* SWPhoneProfileController.m in Sources */,
+				EF9885FB1E8A1AC50089A0EC /* SWWebManager.m in Sources */,
+				EF85AF661E9D012C00B72017 /* SWInfoProfileCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF52C43F1EBB624200B1052D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF52C43E1EBB624200B1052D /* Base */,
+				EF52C4401EBB624600B1052D /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		EF9885BE1E89837A0089A0EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF9885BF1E89837A0089A0EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF9885C31E89837A0089A0EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF9885C41E89837A0089A0EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF9885C71E89837A0089A0EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF9885C81E89837A0089A0EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF9885CA1E89837A0089A0EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1351FCD735406207E235278 /* Pods-Guidoo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Guidoo/Guidoo.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 46353Z8TA3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Guidoo",
+				);
+				GCC_PREFIX_HEADER = "Guidoo/Guidoo-prefix.pch";
+				INFOPLIST_FILE = Guidoo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sb.com.Guidoo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		EF9885CB1E89837A0089A0EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46294B99623A689B01A9D105 /* Pods-Guidoo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Guidoo/Guidoo.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 46353Z8TA3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Guidoo",
+				);
+				GCC_PREFIX_HEADER = "Guidoo/Guidoo-prefix.pch";
+				INFOPLIST_FILE = Guidoo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sb.com.Guidoo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF9885AD1E89837A0089A0EC /* Build configuration list for PBXProject "Guidoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF9885C71E89837A0089A0EC /* Debug */,
+				EF9885C81E89837A0089A0EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF9885C91E89837A0089A0EC /* Build configuration list for PBXNativeTarget "Guidoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF9885CA1E89837A0089A0EC /* Debug */,
+				EF9885CB1E89837A0089A0EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EF0A27E01ED94C9500E4369F /* Chat.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EF0A27E11ED94C9500E4369F /* Chat.xcdatamodel */,
+			);
+			currentVersion = EF0A27E11ED94C9500E4369F /* Chat.xcdatamodel */;
+			path = Chat.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EF9885AA1E89837A0089A0EC /* Project object */;
+}

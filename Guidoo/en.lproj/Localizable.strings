@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  Guidoo
+
+  Created by Sergiy Bekker on 04.05.17.
+  Copyright © 2017 SBApps. All rights reserved.
+*/
+
+"BOOKING_STATE_NOTIFICATION_TITLE" = "Answer for you booking";
+"BOOKING_STATE_NOTIFICATION_BODY" = "The guide has received your booking";
+"INVITE_NOTIFICATION_BODY" = "Invite";
+"INVITE_NOTIFICATION_TITLE" = "We invite you to visit the tour";
+"CHAT_MESSAGE_NOTIFICATION_TITLE" = "New message";
+"CHAT_MESSAGE_NOTIFICATION_BODY" = "You recive new message";

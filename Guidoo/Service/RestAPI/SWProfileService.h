@@ -1,0 +1,17 @@
+//
+//  SWProfileService.h
+//  Guidoo
+//
+//  Created by Sergiy Bekker on 11.04.17.
+//  Copyright © 2017 SBApps. All rights reserved.
+//
+
+#import "SWObjectManager.h"
+#import "SWProfile.h"
+
+@interface SWProfileService : SWObjectManager
+
+- (void) profileUser:(NSString*)param success:(void (^)(SWProfile* obj))success failure:(void (^)(NSError *error))failure;
+- (void) setProfileUser:(NSString*)param success:(void (^)(void))success failure:(void (^)(NSError *error))failure;
+- (void) removeProfileUser:(NSString*)param success:(void (^)(void))success failure:(void (^)(NSError *error))failure;
+@end

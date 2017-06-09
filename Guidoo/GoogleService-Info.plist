@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>305605491632-hcav4g0ncg9l2niqut4la1ls6efn1vtf.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.305605491632-hcav4g0ncg9l2niqut4la1ls6efn1vtf</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC_OsxCn9_yui3dasXsf-XLladAHWGNMDw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>305605491632</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>sb.com.Guidoo</string>
+	<key>PROJECT_ID</key>
+	<string>guideondemand-149212</string>
+	<key>STORAGE_BUCKET</key>
+	<string>guideondemand-149212.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:305605491632:ios:e9db450ec94bea3b</string>
+	<key>DATABASE_URL</key>
+	<string>https://guideondemand-149212.firebaseio.com</string>
+</dict>
+</plist>

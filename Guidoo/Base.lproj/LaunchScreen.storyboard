@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="go" translatesAutoresizingMaskIntoConstraints="NO" id="LHB-gg-J9K">
+                                <rect key="frame" x="119" y="120" width="136" height="132"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="132" id="gya-7W-eWo"/>
+                                    <constraint firstAttribute="width" constant="136" id="i1L-Y5-r3f"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="guidoo" translatesAutoresizingMaskIntoConstraints="NO" id="uJL-8v-fSr">
+                                <rect key="frame" x="75" y="274" width="225" height="54"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="54" id="NnJ-fm-Lnm"/>
+                                    <constraint firstAttribute="width" constant="225" id="hZC-Io-zdb"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Live to explore" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q4O-ow-c1Y">
+                                <rect key="frame" x="16" y="338" width="343" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="mVf-nA-wSl"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                                <color key="textColor" red="0.070588235294117646" green="0.10980392156862745" blue="0.28627450980392155" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="LHB-gg-J9K" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="9Ai-wd-8Yi"/>
+                            <constraint firstItem="q4O-ow-c1Y" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailingMargin" id="A2A-TX-3P0"/>
+                            <constraint firstItem="uJL-8v-fSr" firstAttribute="top" secondItem="LHB-gg-J9K" secondAttribute="bottom" constant="22" id="F8O-hf-raV"/>
+                            <constraint firstItem="LHB-gg-J9K" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="100" id="KQ7-di-Efu"/>
+                            <constraint firstItem="q4O-ow-c1Y" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="MvQ-fW-l96"/>
+                            <constraint firstItem="uJL-8v-fSr" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="ewB-Tu-EIj"/>
+                            <constraint firstItem="q4O-ow-c1Y" firstAttribute="top" secondItem="uJL-8v-fSr" secondAttribute="bottom" constant="10" id="uBB-n5-Bgu"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="go" width="136" height="132"/>
+        <image name="guidoo" width="224" height="53"/>
+    </resources>
+</document>

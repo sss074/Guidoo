@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Guidoo.xcodeproj">
+   </FileRef>
+   <Group
+      location = "container:"
+      name = "CoreData">
+      <FileRef
+         location = "group:SWChatData+CoreDataClass.h">
+      </FileRef>
+      <FileRef
+         location = "group:SWChatData+CoreDataClass.m">
+      </FileRef>
+      <FileRef
+         location = "group:SWChatData+CoreDataProperties.h">
+      </FileRef>
+      <FileRef
+         location = "group:SWChatData+CoreDataProperties.m">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>
